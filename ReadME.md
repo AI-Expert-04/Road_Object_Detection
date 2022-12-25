@@ -56,3 +56,23 @@
 >>> pip install -r requirements.txt
 ```  
 # report [Link](https://docs.google.com/document/d/16T0VQJriU-VXSOssZI7Cu45VG0dLgNY1N7YgtebJXVk/edit?usp=sharing)
+
+
+
+5. 데이터 로드
+
+6. 데이터 분류
+
+7. 데이터 전처리(one hot encoding)
+
+8. 전처리된 데이터 분류 Train_set(70%), Validation_set(28%), Test_set(2%)
+
+9. 학습 
+
+10. 시각화(예측)
+
+
+
+
+
+
