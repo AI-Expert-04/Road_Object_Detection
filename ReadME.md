@@ -1,24 +1,5 @@
 # RoadObject-Detection
 
-## Window Python 환경
-
-- anaconda 4.6.11
-  - python 3.6
-  - numpy 1.17.3
-  - matplotlib 3.1.1
-  - tensorflow 2.0.1
-  - python-opencv
-  - pyqt5
-
-
-## Mac Python 환경 
-- anaconda 4.6.11
-  - python 3.8 
-  - matplotlib #전부 최신버전 !
-  - conda install tensorflow  #전부 최신버전 !
-  - python-opencv  #전부 최신버전 !
-  - pyqt5 #전부 최신버전 !
-
 ## 환경 설정
 
 1. Window conda 환경 생성 
