@@ -1,0 +1,4 @@
+opencv-python==4.5.5.62
+tensorflow
+matplotlib==3.3.4z
+pyqt5==5.15.6

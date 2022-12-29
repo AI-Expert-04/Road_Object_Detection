@@ -7,9 +7,9 @@ import os
 class Model:
     def load_data(self):
         self.train_dataset = tf.keras.preprocessing.image_dataset_from_directory(
-            '../classification_data/',
-            image_size=(224, 224),
-            label_mode='categorical'
+            '../classification_data/', # 분류한 사물 파일
+            image_size=(224, 224), # 성능을 위한 이미지 크기 변경
+            label_mode='categorical' # 사물 이름
         )
         self.class_names = self.train_dataset.class_names
 
@@ -20,6 +20,7 @@ class Model:
             include_top=False,
             weights='imagenet'
         )
+
         self.model.trainable = False
         self.model = tf.keras.Sequential([
             self.model,
