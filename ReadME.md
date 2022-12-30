@@ -32,9 +32,10 @@
 >>> pip install -r requirements.txt
 ```  
 
-5. 만약 당신의 노트북이 Mac M1 이상이면 
+5. 만약 당신의 노트북이 Mac M1 이상이면 tensorflow는 다시 설치 해야한다.
 ```
 >>> conda config --env --set subdir osx-arm64
+>>> conda uninstall tensorflow
 >>> conda install -c apple tensorflow-deps
 ```
 
