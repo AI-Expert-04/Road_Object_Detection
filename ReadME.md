@@ -2,13 +2,7 @@
 
 ## 환경 설정
 
-1. Window conda 환경 생성 
-
-```
->>> conda create -n [가상환경 이름]-env python=3.6
-```
-
-1. Mac conda 환경 생성 
+1. conda 환경 생성 
 
 ```
 >>> conda create —name [가상환경 이름]-env python=3.8
@@ -32,35 +26,22 @@
 >>> pip install -r requirements.txt
 ```  
 
-5. 만약 당신의 노트북이 Mac M1 이상이면 tensorflow는 다시 설치 해야한다.
+5. DBB100K data 다운
+
 ```
->>> conda config --env --set subdir osx-arm64
->>> conda uninstall tensorflow
->>> conda install -c apple tensorflow-deps
+>>> DBB100K data [Link](https://drive.google.com/file/d/157GRrqHjiSu8FJegARt-7iNIsdH2NhRh/view?usp=share_link)
+>>> Video data [Link](https://drive.google.com/file/d/1ydJfILsKlDDJ7pnUyLlWelOZeta1xQRM/view?usp=share_link)
+```  
+
+6. yolov3 and Ration Net Model 다운
 ```
+>>> yolov3 [Link](https://bair.berkeley.edu/blog/2018/05/30/bdd/](https://drive.google.com/file/d/1mPG_pcebESWefDweiy70LxPb3qxbHd1C/view?usp=sharing))
+>>> Ration Net [Link](https://drive.google.com/file/d/1zL2HWdNwNkq4Kzse17hfkHaOF4dlxoMU/view?usp=share_link)
+```  
+
+8. 
 
 # report [Link](https://docs.google.com/document/d/16T0VQJriU-VXSOssZI7Cu45VG0dLgNY1N7YgtebJXVk/edit?usp=sharing)
-
-5. 데이터 수집
-DBB100K data [Link](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
-Video data [Link]()
-Directory name -> data
-
-
-6. 데이터 로드
-
-7. 데이터 분류
-
-8. 데이터 전처리(one hot encoding)
-
-9. 전처리된 데이터 분류 Train_set(70%), Validation_set(28%), Test_set(2%)
-
-10. 학습 
-1000개의 사물을 충분히 학습된 가중치인 imagenet을 전이학습 시켜 학습에 도움을 줌
-
-11. 시각화(예측)
-
-12. yolov3 model VS RetinaNet 성능 비교 및 코드 분석
 
 
 
