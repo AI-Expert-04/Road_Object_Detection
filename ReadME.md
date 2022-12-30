@@ -43,6 +43,9 @@
 
 5. 데이터 수집
 DBB100K data [Link](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
+Video data [Link]()
+Directory name -> data
+
 
 6. 데이터 로드
 
