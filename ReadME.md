@@ -32,6 +32,12 @@
 >>> pip install -r requirements.txt
 ```  
 
+5. 만약 당신의 노트북이 Mac M1 이상이면 
+```
+>>> conda config --env --set subdir osx-arm64
+>>> conda install -c apple tensorflow-deps
+```
+
 # report [Link](https://docs.google.com/document/d/16T0VQJriU-VXSOssZI7Cu45VG0dLgNY1N7YgtebJXVk/edit?usp=sharing)
 
 5. 데이터 수집
