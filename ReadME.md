@@ -42,7 +42,7 @@
 # report [Link](https://docs.google.com/document/d/16T0VQJriU-VXSOssZI7Cu45VG0dLgNY1N7YgtebJXVk/edit?usp=sharing)
 
 5. 데이터 수집
-DBB100K data
+DBB100K data [Link](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
 
 6. 데이터 로드
 
