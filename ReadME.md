@@ -26,11 +26,11 @@
 . DBB100K data [Link](https://drive.google.com/file/d/157GRrqHjiSu8FJegARt-7iNIsdH2NhRh/view?usp=share_link)
 . Video data [Link](https://drive.google.com/file/d/1ydJfILsKlDDJ7pnUyLlWelOZeta1xQRM/view?usp=share_link) 
 
--1 6. yolov3 and Ration Net Model 다운
+6. yolov3 and Ration Net Model 다운
 
 yolov3 [Link](https://bair.berkeley.edu/blog/2018/05/30/bdd/](https://drive.google.com/file/d/1mPG_pcebESWefDweiy70LxPb3qxbHd1C/view?usp=sharing))
 
--1 Ration Net [Link](https://drive.google.com/file/d/1zL2HWdNwNkq4Kzse17hfkHaOF4dlxoMU/view?usp=share_link)
+Ration Net [Link](https://drive.google.com/file/d/1zL2HWdNwNkq4Kzse17hfkHaOF4dlxoMU/view?usp=share_link)
 
 8. 
 
