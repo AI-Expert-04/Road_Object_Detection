@@ -333,9 +333,16 @@ if __name__ == '__main__':
     model = YOLO_V3()
     model.build()
     model.load()
-    path = '../data/images/b001a7ce-5cbc6e0b.jpg'
-    img = cv2.imread(path)
-    result = model.predict(img)
-    cv2.imshow('image', img)
-    cv2.imshow('result', result)
-    cv2.waitKey(0)
+    path = 0
+
+    cap = cv2.VideoCapture(path)
+    while cap.isOpened():
+        ret, cam = cap.read()
+        if not ret:
+            break
+        result = model.predict(cam)
+        cv2.imshow('result', result)
+        if cv2.waitKey(1) == ord('q'):
+            break
+
+    cap.release()

@@ -3,3 +3,6 @@ data
 classification_data
 models
 logs
+test.py
+main.py
+test2.py
