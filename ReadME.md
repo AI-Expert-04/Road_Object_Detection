@@ -14,9 +14,10 @@ Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/
 [**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
 
 ```bash
-git clone https://github.com/ultralytics/yolov5  # clone
-cd yolov5
-pip install -r requirements.txt  # install
+>>> git clone https://github.com/AI-Expert-04/Road_Object_Detection.git  # clone
+>>> conda create —name Road_Object-Detection-env python=3.8
+>>> conda activate Road_Object-Detection-env
+Pycharm Termainal >>> pip install -r requirements.txt # install
 ```
 
 </details>
