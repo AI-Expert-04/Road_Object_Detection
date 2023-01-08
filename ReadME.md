@@ -41,7 +41,7 @@ data : train_dataset
 yolov
 ### 핵심코드
 ##### Genentic_Algorithm.py
-<pre><code> model = tf.keras.applications.MobileNet(weights='imagenet', include_top=False,  input_shape=(224, 224, 3))
+<pre><code>     model = tf.keras.applications.MobileNet(weights='imagenet', include_top=False,  input_shape=(224, 224, 3))
     model.trainable = False # 1000개의 가중치를 학습하지 않음.
 
     model = tf.keras.Sequential([
