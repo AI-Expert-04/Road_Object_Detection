@@ -67,5 +67,4 @@ data : train_dataset
     if not os.path.exists('../models'):
         os.mkdir('../models')
 
-    model.save('../models/yolo_trained.h5')
-    자세한 코드는 Genentic_Algorithm.py</code></pre>      
+    model.save('../models/yolo_trained.h5')</code></pre>      
