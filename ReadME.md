@@ -68,3 +68,35 @@ data : train_dataset
         os.mkdir('../models')
 
     model.save('../models/yolo_trained.h5')</code></pre>      
+    
+    
+    ### Retina 학습
+<pre><code>    model = tf.keras.applications.MobileNet(weights='imagenet', include_top=False,  input_shape=(224, 224, 3))
+    model.trainable = False # 1000개의 가중치를 학습하지 않음.
+
+    model = tf.keras.Sequential([
+        model, # imageNet 전이 학습 Input_layer
+        # Convolution Neural Network (Convolution 신경망)
+        tf.keras.layers.Conv2D(1024, (3, 3), padding = 'SAME'), # padding 사용해 필터를 줄임
+        tf.keras.layers.Conv2D(1024, (3, 3), padding='SAME'), # padding 한번 더해 필터를 더 줄임
+        tf.keras.layers.GlobalAveragePooling2D(), # 필터에 사용될 Parameter 수를 줄여 차원을 감소 즉 2차원
+        ## hidden_layer1 ~ hidden_layer2
+        # 완전 연결 신경망
+        tf.keras.layers.Dense(4096), # 1024 -> 4096(hidden_layer1)
+        tf.keras.layers.Dense(735), # 4096(hidden_layer1) -> 735(hidden_layer2)
+        tf.keras.layers.Reshape((7, 7, 15)) # 필터를 다시 되돌림. Output_layer
+    ]); model.summary()
+
+    if not os.path.exists('../logs'):
+        os.mkdir('../logs')
+
+    tensorboard = tf.keras.callbacks.TensorBoard(log_dir='../logs')
+
+    # SGD(Stochastic Gradient Decent) 확률적 경사 하강법
+    optimizer = tf.keras.optimizers.SGD(learning_rate=0.000001, momentum=0.9) # 최적화 함수
+    model.compile(loss=yolo_multitask_loss, optimizer=optimizer, run_eagerly=True) # 실패 함수
+    model.fit(images, labels, epochs=5, verbose=1, callbacks=[tensorboard]) # 학습
+    if not os.path.exists('../models'):
+        os.mkdir('../models')
+
+    model.save('../models/yolo_trained.h5')</code></pre>      
