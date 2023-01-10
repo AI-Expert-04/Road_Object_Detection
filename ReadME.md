@@ -95,7 +95,7 @@ data : train_dataset
     # SGD(Stochastic Gradient Decent) 확률적 경사 하강법
     optimizer = tf.keras.optimizers.SGD(learning_rate=0.000001, momentum=0.9) # 최적화 함수
     model.compile(loss=yolo_multitask_loss, optimizer=optimizer, run_eagerly=True) # 실패 함수
-    model.fit(images, labels, epochs=5, verbose=1, callbacks=[tensorboard]) # 학습
+    model.fit(images, labels, epochs=5, verbose=1, callbacks=[tensorboard]) # 학습
     if not os.path.exists('../models'):
         os.mkdir('../models')
 
