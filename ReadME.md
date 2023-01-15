@@ -36,7 +36,7 @@ image_object_detection
 model : MabileNet 
 weight : imagenet
 Optimzer : RMSprop
-data : train_dataset
+data : train_dataset.
 
 ### yolov 학습
 <pre><code>    model = tf.keras.applications.MobileNet(weights='imagenet', include_top=False,  input_shape=(224, 224, 3))
