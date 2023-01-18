@@ -10,7 +10,7 @@ See the for full documentation on training, testing and deployment. See below fo
 <summary>Install</summary>
 
 ## Hi, if you want to see the video of the result of this project, click the link!
-# report [Link]()
+report [Link]()
 
 
 Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
