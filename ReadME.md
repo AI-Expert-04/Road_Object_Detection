@@ -41,7 +41,7 @@ model : MabileNet
 weight : imagenet
 Optimzer : RMSprop
 data : train_dataset.
-
+D
 ### yolov 학습
 <pre><code>    model = tf.keras.applications.MobileNet(weights='imagenet', include_top=False,  input_shape=(224, 224, 3))
     model.trainable = False # 1000개의 가중치를 학습하지 않음.
