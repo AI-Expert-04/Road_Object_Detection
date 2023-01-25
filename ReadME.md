@@ -1,8 +1,8 @@
 <div align="center">
 # Road_Object-Detection
+# <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=YOLO&logoColor=white"/>
 </div>
 
-<img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=YOLO&logoColor=white"/>
 ## <div align="center">Documentation</div>
 
 See the for full documentation on training, testing and deployment. See below for quickstart examples.
