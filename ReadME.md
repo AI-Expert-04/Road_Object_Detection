@@ -1,6 +1,6 @@
 <div align="center">
 # Road_Object-Detection
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white&link=https://www.youtube.com/channel/UCzIUIJ2NLY_AC-XhNWwcP2g"/>
+<img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=YOLO&logoColor=white"/>
 </div>
 
 ## <div align="center">Documentation</div>
