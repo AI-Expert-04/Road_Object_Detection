@@ -1,6 +1,5 @@
 <div align="center">
 # Road_Object-Detection
-# <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=YOLO&logoColor=white"/>
 </div>
 
 ## <div align="center">Documentation</div>
@@ -43,7 +42,7 @@ weight : imagenet
 Optimzer : RMSprop
 data : train_dataset
 
-### yolov 학습
+### yolov 학습 <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=YOLO&logoColor=white"/>
 model : MabileNet
 weight : imagenet
 optimizer : SGD
