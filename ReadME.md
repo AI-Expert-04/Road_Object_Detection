@@ -37,7 +37,7 @@ Pycharm Termainal >>> pip install -r requirements.txt # install
 
 image_object_detection
 
-model : MabileNet. 
+model : MabileNet
 weight : imagenet
 Optimzer : RMSprop
 data : train_dataset
