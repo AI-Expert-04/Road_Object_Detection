@@ -31,13 +31,6 @@ Pycharm Termainal >>> pip install -r requirements.txt # install
 
 6. yolov3 and Ration Net Model 다운 / models [Link](https://drive.google.com/file/d/1-KI-WpQFkRWdidBipCqoMZboaVuBvvjG/view?usp=share_link)
 
-image_object_detection
-
-model : MabileNet
-weight : imagenet
-Optimzer : RMSprop
-data : train_dataset
-
 ### yolov 학습 <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=YOLO&logoColor=white"/>
 model : MabileNet
 weight : imagenet
