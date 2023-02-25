@@ -31,10 +31,6 @@ Pycharm Termainal >>> pip install -r requirements.txt # install
 
 6. yolov3 and Ration Net Model 다운 / models [Link](https://drive.google.com/file/d/1-KI-WpQFkRWdidBipCqoMZboaVuBvvjG/view?usp=share_link)
 
-
-# report [Link](https://docs.google.com/document/d/16T0VQJriU-VXSOssZI7Cu45VG0dLgNY1N7YgtebJXVk/edit?usp=sharing)
-
-
 image_object_detection
 
 model : MabileNet
@@ -80,3 +76,4 @@ optimizer : SGD
     
 ### Retina 학습.
 <pre><code>    </code></pre>      
+# report [Link](https://docs.google.com/document/d/16T0VQJriU-VXSOssZI7Cu45VG0dLgNY1N7YgtebJXVk/edit?usp=sharing)
