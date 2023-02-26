@@ -68,5 +68,11 @@ optimizer : SGD
     
     
 ### Retina 학습.
-<pre><code>    </code></pre>      
+<pre><code>model.fit(
+    train_dataset.take(10),
+    validation_data=val_dataset.take(5),
+    epochs=epochs,
+    callbacks=callbacks_list,
+    verbose=1,
+)   </code></pre>      
 # report [Link](https://docs.google.com/document/d/16T0VQJriU-VXSOssZI7Cu45VG0dLgNY1N7YgtebJXVk/edit?usp=sharing)
