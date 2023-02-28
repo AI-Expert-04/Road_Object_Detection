@@ -6,7 +6,7 @@
 
 See the for full documentation on training, testing and deployment. See below for quickstart examples.
 
-<details open>
+<details close>
 <summary>Install</summary>
 
 ## Hi, if you want to see the video of the result of this project, click the link!
