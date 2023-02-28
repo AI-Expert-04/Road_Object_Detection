@@ -67,6 +67,7 @@ optimizer : SGD
     model.save('../models/yolo_trained.h5')</code></pre>      
     
     
+    
 ### Retina 학습.
 <pre><code>model.fit(
     train_dataset.take(10),
