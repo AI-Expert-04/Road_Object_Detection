@@ -24,6 +24,7 @@ Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/
 Pycharm Termainal >>> pip install -r requirements.txt # install
 ```
 
+
 </details>
 
 
